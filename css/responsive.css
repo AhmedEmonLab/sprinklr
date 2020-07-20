@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1200px){
+	.carousel-caption h5{
+		font-size: 55px;
+	}
+	.follow{
+		padding: 10px;
+		margin: 15px;
+	}
+	.img-box ul{
+		left: 32%;
+		transform: translateX(-10%);
+	}
+}
+@media only screen and (max-width: 980px){
+	.img-responsive{
+		width: 160px;
+	}
+	.profile-pic h2{
+		font-size: 20px;
+	}
+	.profile-pic h3{
+		font-size: 14px;
+	}
+	.profile-pic p{
+		font-size: 14px;
+	}
+	/*price plans*/
+	.price-head h2{
+		font-size: 25px;
+	}
+	.price-head p{
+		font-size: 24px;
+	}
+	.price-content ul li{
+		padding: 13px 8px;
+	}
+	.price-content .pbl{
+		padding-left: 27px;
+	}
+	.buy-btn{
+		padding: 8px 24px;
+	}
+	/*promo*/
+	#promo{
+		font-size: 36px;
+	}
+	.Free{
+		font-size: 44px;
+	}
+	.img-box ul{
+		left: 24%;
+		transform: translateX(-10%);
+	}
+}
+@media only screen and (max-width: 768px){
+	.carousel-caption h5{
+		font-size: 43px;
+	}
+	#promo{
+		font-size: 27px;
+	}
+	.Free{
+		font-size: 38px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.carousel-caption h5{
+		font-size: 27px;
+	}
+	.price-content .pbl{
+		padding-left: 0;
+	}
+	#promo{
+		font-size: 23px;
+	}
+	.Free{
+		font-size: 30px;
+	}
+	.img-box ul{
+	padding: 15px 0;
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+}
